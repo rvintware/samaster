@@ -9,6 +9,13 @@ const StripeGuideApp = () => {
 
   // Comprehensive glossary of terms
   const glossary = {
+    'API': {
+      term: 'API',
+      title: 'Application Programming Interface',
+      definition: 'A set of rules and protocols for building software applications.',
+      context: 'APIs allow different software components to communicate with each other. Stripe provides APIs for payments, subscriptions, and more.',
+      importance: 'APIs are the backbone of modern software development. They enable developers to build complex applications by combining different services and data sources.'
+    },
     'PCI-DSS': {
       term: 'PCI-DSS',
       title: 'Payment Card Industry Data Security Standard',
